@@ -1,0 +1,64 @@
+
+h1{
+width:150px;
+height:90px;
+-webkit-transition:width 2s, height 2s;
+transition:width 2s, height 2s;
+font-family:Comic Sans MS; font-size:30px; color:blue;
+}
+h1:hover{width:0px;
+height: 140px;
+background-color:green;
+}
+.a{
+font-family:Marzo; font-size:30px; color:red;
+}
+.b{
+font-family:Agency FB; font-size:30px; color:violet;
+}
+.c{
+font-family:Comic Sans MS; font-size:30px; color:Powderblue;
+}
+body{background-image:url(bt.jpg);}
+.a:hover{width:100px;
+height: 200px;
+background-color:violet;
+}
+.b:hover{width:100px;
+height: 200px;
+background-color:blue;
+}
+.c:hover{width:100px;
+background color:green;
+height: 200px;
+}
+.a{
+width:50px;
+height:50px;
+-webkit-transition:width 2s, height 4s;
+background-image:url(bt1.jpg);
+transition:width 2s, height 4s;
+}
+.a:hover{width:100px;
+height: 200px;
+}
+.b{
+width:50px;
+height:50px;
+-webkit-transition:width 2s, height 4s;
+background-image:url(bt1.jpg);
+transition:width 2s, height 4s;
+}
+.b:hover{width:100px;
+height: 200px;
+}
+.c{
+width:50px;
+height:50px;
+-webkit-transition:width 2s, height 4s;
+background-image:url(bt1.jpg);
+transition:width 2s, height 4s;
+}
+.c:hover{width:100px;
+height: 200px;
+}
